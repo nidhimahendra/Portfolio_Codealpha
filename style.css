@@ -1,0 +1,55 @@
+*{ 
+    padding: 0; 
+    margin: 0; 
+} 
+body{ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
+Geneva, Verdana, sans-serif; 
+    background-color: #f2f2f2; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height:100vh ;   
+    border-radius: 160px; 
+} 
+.card{ 
+    background-color: #ffffff; 
+    width:400px ; 
+    text-align: center; 
+    padding: 50px; 
+    border-radius: 10px; 
+} 
+img{ 
+    border-radius: 50px; 
+    object-fit: cover; 
+    margin-bottom: 20px; 
+} 
+h2{ 
+    font-size: 29px; 
+    margin-bottom: 10px; 
+} 
+p{ 
+    font-size: 15px; 
+    color: gray; 
+    margin-bottom: 10px; 
+ 
+} 
+.details p a{ 
+    text-decoration: none; 
+    color: rgb(88, 86, 86); 
+    margin-bottom: 40px; 
+} 
+.button{ 
+    margin-top: 40px; 
+} 
+.button a{ 
+    text-decoration: none; 
+    background-color: blue; 
+    color: white; 
+    padding: 10px; 
+    border-radius: 5px; 
+    margin: 10px 
+} 
+.button a:hover{ 
+    background-color: red; 
+}
